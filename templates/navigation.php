@@ -18,7 +18,7 @@
             <a class="nav-link" href="<?php echo home_url( '/checkout-system-products' ) ?>"><?php _e( 'Products', 'checkout-system' ) ?></a>
             </li>
         </ul>
-        <form class="form-inline align-items-end my-2 my-lg-0 woo" style="margin-left: 60%;" action="/import" method="post">
+        <form class="form-inline align-items-end my-2 my-lg-0 woo" style="margin-left: 60%;" action="/checkout-system-import" method="post">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><?php _e( 'Import to WooCommerce', 'checkout-system' ) ?></button>
         </form>
         </div>
