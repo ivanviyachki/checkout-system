@@ -10,6 +10,14 @@
 				margin-bottom: 40px;
     			font-size: 30px;
 			}
+			.navbar .btn-outline-success{
+				border-color: #674399;
+				color: #674399;
+			}
+			.navbar .btn-outline-success:hover{
+				background-color: #674399;
+				color: white;
+			}
 		</style>
 	</head>
 	<body>
