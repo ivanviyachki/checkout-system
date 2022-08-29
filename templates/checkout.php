@@ -44,7 +44,7 @@
 				<h1><?php _e( 'Checkout Form', 'checkout-system' ) ?></h1>
 			</div>
 			<div class="row">
-				<form role="form" action="/checkout" method="post">
+				<form role="form" action="/checkout-system" method="post">
 					<div id="myRepeatingFields">
 						<div class="entry input-group col-xs-3">
 							<input class="form-control" name="skus[]" type="text" placeholder="Product SKU" />
