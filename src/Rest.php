@@ -70,7 +70,7 @@ class Rest {
      * @return bool 
      */
     private function import_product( string $name, int $price ): bool {
-        $service_url = $this->woocommerce_url . 'wp-json/wc/v3/products';
+        $service_url = $this->woocommerce_url . '/wp-json/wc/v3/products';
 
         $curl = curl_init( $service_url );
 
